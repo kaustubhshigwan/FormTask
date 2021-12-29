@@ -1,0 +1,45 @@
+.container{
+    background-color: crimson;
+    height: 650px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 5px;
+    
+    padding: 10px;
+
+    box-shadow: 5px 10px #888888;
+}
+.map{
+    border: 2px solid white;
+    width: 600px;
+    height: 600px;
+   
+}
+.form{
+    width:400px;
+    margin-left: 50px;
+   
+}
+.Fields{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: start;
+    
+}
+.Btn{
+    margin-top: 20px;
+    border: 2px solid grey;
+    color: black;
+    background-color: turquoise;
+}
+.Btn:hover{
+    background-color: black;
+    color: white;
+}
